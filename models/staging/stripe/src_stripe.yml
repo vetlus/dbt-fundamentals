@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stripe
+    schema: default
+    tables:
+      - name: stripe_payments
+      
+
