@@ -2,17 +2,22 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    description: A clone of a Databricks database.
     schema: default
     tables:
       - name: jaffle_shop_customers
+        description: Default customers data.
         columns:
           - name: id
+            description: Primary key for customers.
             tests:
               - unique
               - not_null
       - name: jaffle_shop_orders
+        description: Default data for orders.
         columns:
           - name: id
+            description: Primary key for orders.
             tests: 
               - unique
               - not_null         
