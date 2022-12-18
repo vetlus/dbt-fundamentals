@@ -1,2 +1,3 @@
-# Initiel testfile
-This is a test markdown file for Erik H.
+# Initial testfile
+This is a markdown file for Erik H.
+Dato:18.12.2022
